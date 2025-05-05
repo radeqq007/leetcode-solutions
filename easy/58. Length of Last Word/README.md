@@ -1,6 +1,6 @@
 # 58. Length of Last Word
 
-This function the length of the last word in a given string:
+This function returns the length of the last word in a given string:
 
 1. Remove any leading or trailing spaces and splits the string into an array of words.
 
