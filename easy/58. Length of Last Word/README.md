@@ -2,14 +2,12 @@
 
 This function the length of the last word in a given string:
 
-1.
+1. Remove any leading or trailing spaces and splits the string into an array of words.
+
 ```ts
 s.trim().split(' ')
 ```
-Removes any leading or trailing spaces and splits the string into an array of words.
-
-2.
+2. Return the length of last element, which is the last word.
 ```ts
 return words[words.length - 1].length;
 ```
-Returns the length of last element, which is the last word.
